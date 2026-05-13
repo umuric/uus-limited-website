@@ -57,8 +57,7 @@ export default function UUSLimitedWebsite() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+         </div>
       </section>
 
       {/* About Section */}
