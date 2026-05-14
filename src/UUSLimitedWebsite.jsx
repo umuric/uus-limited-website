@@ -15,11 +15,11 @@ export default function UUSLimitedWebsite() {
             businesses, and communities through advanced ICT, GIS, IoT,
             and smart infrastructure systems.
           </p>
-          <div className="flex gap-4">
-            <button className="bg-green-500 text-black px-8 py-3 rounded font-bold hover:bg-green-600">
-              Explore Services
-              <a href="https://www.uusltd-rw.com/services">
-            </button>
+       <div className="flex gap-4">
+  <button onClick={() => document.getElementById('services').scrollIntoView({ behavior: 'smooth' })} className="bg-green-500 text-black px-8 py-3 rounded font-bold hover:bg-green-600">
+    Explore Services
+  </button>
+          
             <button className="border-2 border-green-500 text-green-500 px-8 py-3 rounded font-bold hover:bg-green-500 hover:text-black">
               Contact Us
               <a href="mailto:info@uusltd-rw.com">  {/* For email */}
@@ -83,7 +83,7 @@ export default function UUSLimitedWebsite() {
       </section>
 
       {/* Services */}
-      <section className="py-20 px-4 bg-gray-900">
+      <section className="py-20 px-4 bg-gray-900" id="services">>
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-green-500 mb-4">Our Services</h2>
           <p className="text-lg text-gray-300 mb-12">
