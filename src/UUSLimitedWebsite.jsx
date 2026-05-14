@@ -6,7 +6,7 @@ export default function UUSLimitedWebsite() {
       {/* Hero Section */}
       <header className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <img src={logo} alt="UUS Limited" className="w-72 md:w-[420px] drop-shadow-2xl" />
+          <img src={logo} alt="UUS Limited" className="w-36 md:w-[210px] drop-shadow-2xl" />
           <h1 className="text-5xl font-bold text-green-500 mb-4">
             Smart Infrastructure • ICT Consulting • Digital Transformation
           </h1>
