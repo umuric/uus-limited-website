@@ -16,6 +16,10 @@ export default function UUSLimitedWebsite() {
             and smart infrastructure systems.
           </p>
           <div className="flex gap-4">
+  <button onClick={() => document.getElementById('about').scrollIntoView({ behavior: 'smooth' })} className="bg-green-500 text-black px-8 py-3 rounded font-bold hover:bg-green-600">
+    Explore Services
+  </button>
+          <div className="flex gap-4">
             <button className="bg-green-500 text-black px-8 py-3 rounded font-bold hover:bg-green-600">
               Explore Services
             </button>
