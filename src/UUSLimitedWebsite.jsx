@@ -1,4 +1,4 @@
-import logo from './Image May 12, 2026, 01_43_33 PM.png'
+import logo from './logo.png'
 export default function UUSLimitedWebsite() {
   return (
     <div className="min-h-screen bg-white">
