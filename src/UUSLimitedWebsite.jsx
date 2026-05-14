@@ -18,9 +18,11 @@ export default function UUSLimitedWebsite() {
           <div className="flex gap-4">
             <button className="bg-green-500 text-black px-8 py-3 rounded font-bold hover:bg-green-600">
               Explore Services
+              <a href="https://www.uusltd-rw.com/services">
             </button>
             <button className="border-2 border-green-500 text-green-500 px-8 py-3 rounded font-bold hover:bg-green-500 hover:text-black">
               Contact Us
+              <a href="mailto:info@uusltd-rw.com">  {/* For email */}
             </button>
           </div>
         </div>
