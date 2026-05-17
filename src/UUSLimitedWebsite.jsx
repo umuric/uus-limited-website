@@ -20,9 +20,9 @@ export default function UUSLimitedWebsite() {
     Explore Services
   </button>
           <div className="flex gap-4">
-            <button className="bg-green-500 text-black px-8 py-3 rounded font-bold hover:bg-green-600">
+            <a href="#services" className="bg-green-500 text-black px-8 py-3 rounded font-bold hover:bg-green-600">
               Explore Services
-            </button>
+            </a>
             <button className="border-2 border-green-500 text-green-500 px-8 py-3 rounded font-bold hover:bg-green-500 hover:text-black">
               Contact Us
               </button>
@@ -85,9 +85,9 @@ export default function UUSLimitedWebsite() {
       </section>
 
       {/* Services */}
-      <section className="py-20 px-4 bg-gray-900" id="services">>
+      <section className="py-20 px-4 bg-gray-900">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-green-500 mb-4">Our Services</h2>
+          <h2 className="text-4xl font-bold text-green-500 mb-4" id="services">Our Services</h2>
           <p className="text-lg text-gray-300 mb-12">
             We provide strategic consulting and advanced digital solutions for public and private sector organizations.
           </p>
