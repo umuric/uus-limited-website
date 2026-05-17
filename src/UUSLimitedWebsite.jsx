@@ -1,5 +1,4 @@
 import logo from './logo.png'
-
 export default function UUSLimitedWebsite() {
   return (
     <div className="bg-black text-white">
