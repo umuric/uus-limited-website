@@ -20,9 +20,9 @@ export default function UUSLimitedWebsite() {
     Explore Services
   </button>
           <div className="flex gap-4">
-            <a href="#services" className="bg-green-500 text-black px-8 py-3 rounded font-bold hover:bg-green-600">
+            <button className="bg-green-500 text-black px-8 py-3 rounded font-bold hover:bg-green-600">
               Explore Services
-            </a>
+            </button>
             <button className="border-2 border-green-500 text-green-500 px-8 py-3 rounded font-bold hover:bg-green-500 hover:text-black">
               Contact Us
               </button>
